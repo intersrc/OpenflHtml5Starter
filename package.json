@@ -1,0 +1,37 @@
+{
+  "name": "openfl-html5-starter",
+  "version": "1.0.0",
+  "description": "openfl html5 starter",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "haxelib run openfl build html5 -debug",
+    "dev": "haxe-watchify",
+    "build": "haxelib run openfl build html5 -minify -yui",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intersrc/OpenflHtml5Starter.git"
+  },
+  "keywords": [
+    "canvas",
+    "game",
+    "haxe",
+    "nape",
+    "createjs"
+  ],
+  "author": "Wu Yu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/intersrc/OpenflHtml5Starter/issues"
+  },
+  "homepage": "https://github.com/intersrc/OpenflHtml5Starter#readme",
+  "haxe": {
+    "version": "3.4.2"
+  },
+  "devDependencies": {
+    "haxe-watchify": "^1.3.0",
+    "haxeshim": "^0.8.2",
+    "switchx": "^0.11.2"
+  }
+}

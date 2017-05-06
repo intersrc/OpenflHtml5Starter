@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<meta title="Openfl Html5 Starter" package="com.intersrc.openflhtml5starter" version="1.0.0" company="interSrc" />
+	<app main="Main" path="export" file="openfl-html5-starter" />
+
+    <window width="960" height="540" background="#000000" hardware="true" />
+
+	<source path="src" />
+
+	<haxelib name="openfl" />
+    <haxelib name="spritesheet" />
+
+	<assets path="assets" rename="assets" exclude="kit.svg" />
+	<icon path="assets/kit.svg" />
+
+</project>

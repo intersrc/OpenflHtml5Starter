@@ -1,0 +1,5 @@
+{
+    "haxe.displayConfigurations": [
+        ["export/html5/debug/haxe/debug.hxml"]
+    ]
+}

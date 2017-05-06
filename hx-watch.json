@@ -1,0 +1,7 @@
+{
+  "build": {
+     "program" : "openfl",
+     "buildType" : "build",
+     "platforms" : ["html5"]
+   }
+}
